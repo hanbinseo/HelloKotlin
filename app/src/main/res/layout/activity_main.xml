@@ -7,13 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnhello"
+        android:id="@+id/btnJava"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:text="Button"
+        android:layout_marginTop="184dp"
+        android:text="VIEW BINDING - JAVA"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnkotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="VIEW BINDING - KOTLIN"
+        app:layout_constraintStart_toStartOf="@+id/btnJava"
+        app:layout_constraintTop_toBottomOf="@+id/btnJava" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
